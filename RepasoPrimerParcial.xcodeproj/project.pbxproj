@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B24B4EA216009A700C82095 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B24B4E9216009A700C82095 /* main.c */; };
+		0B24B4F321601DD800C82095 /* Repaso.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B24B4F221601DD800C82095 /* Repaso.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		0B24B4E6216009A700C82095 /* RepasoPrimerParcial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RepasoPrimerParcial; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B24B4E9216009A700C82095 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0B24B4F121601DD800C82095 /* Repaso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repaso.h; sourceTree = "<group>"; };
+		0B24B4F221601DD800C82095 /* Repaso.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Repaso.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0B24B4E9216009A700C82095 /* main.c */,
+				0B24B4F121601DD800C82095 /* Repaso.h */,
+				0B24B4F221601DD800C82095 /* Repaso.c */,
 			);
 			path = RepasoPrimerParcial;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B24B4EA216009A700C82095 /* main.c in Sources */,
+				0B24B4F321601DD800C82095 /* Repaso.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
